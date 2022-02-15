@@ -1,4 +1,4 @@
-## Unit 19 Homework: Cryptocurrency Wallet
+
 
 ![An image shows a wallet with bitcoin.](Images/19-4-challenge-image.png)
 
@@ -96,6 +96,8 @@ Now it's time to put it all together and test the Fintech Finder application wit
 
 2. To launch the Streamlit application, type `streamlit run fintech_finder.py`.
 
+    <img src="./Images/Fintech_finder_launch.jpg" style="zoom:50%;" >
+
 3. On the resulting webpage, select a candidate that you would like to hire from the appropriate drop-down menu. Then, enter the number of hours that you would like to hire them for. (Remember, you do not have a lot of ether in your account, so you cannot hire them for long!)
 
 4. Click the Send Transaction button to sign and send the transaction with your Ethereum account information. Navigate to the Transactions section of Ganache.
@@ -104,9 +106,39 @@ Now it's time to put it all together and test the Fintech Finder application wit
 
     * Take a screenshot of the transaction details on Ganache. Save this screenshot to the README.md file of your GitHub repository for this Challenge assignment.
 
+      #### Account generation screenshots:
+
+      Account generated in  Steamlit powered FinTech_finder matches the Ganache
+
+      <img src="./Images/Ganache_account_generated.jpg">
+
+      <img src="./Images/Account_Generated.jpg">
+
+    #### Transaction screenshots:
+
+     <img src="./Images/Transcation_demo.jpg" style="zoom:50%;" >
+
+    After click "Send Transaction" button, it generates a transaction hash:
+
+    <img src="./Images/send.jpg" style="zoom:50%;" >
+
+    
+
+    
+
 5. Return to the original transaction, and click the transaction’s To address.
 
 * Take a screenshot of the recipient’s address balance and history from your Ganache application. Save this screenshot to the README.md file of your GitHub repository for this Challenge assignment.
+
+  **Updated account balance:**
+
+* <img src="./Images/Account_balance.jpg" style="zoom:67%;" >
+
+  <img src="./Images/Ganache_balance.jpg">
+
+  **Transaction history record in Ganache: ** 
+
+  <img src="./Images/Ganache_transcation.jpg"> 
 
 ---
 
